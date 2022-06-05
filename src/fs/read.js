@@ -11,8 +11,6 @@ export const read = async () => {
   } catch (error) {
     console.error(error);
     throw new FileSystemException("FS operation failed");
-  } finally {
-    await file?.close();
   }
 };
 

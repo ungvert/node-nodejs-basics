@@ -1,7 +1,3 @@
-/**
- * Start example:
- * `RSS_name1=value1 RSS_name2=value2 node env`
- */
 export const parseEnv = () => {
   console.log(
     Object.entries(process.env)
